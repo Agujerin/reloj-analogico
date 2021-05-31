@@ -1,0 +1,121 @@
+* {
+    font-family: sans-serif;
+}
+
+/* PRÁCTICA 2: reloj analógico */ 
+.clock-container {
+    padding: 5px;
+    background-color: mediumpurple;
+}
+
+.clock-circle {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+    height: 600px;
+    width: 600px;
+    box-shadow: 5px 5px 20px black;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    border: solid 8px rgb(117, 105, 105);
+    border-radius: 50%;
+    background-color: rgb(0, 0, 0);
+}
+
+.time {
+    display: flex;
+    justify-content: center;
+    position: absolute;
+    z-index: 400;
+    height: 30px;
+    width: 30px;
+    border-radius: 50%;
+    background-color: rgb(255, 0, 0);
+}
+
+.secs,
+.mins,
+.hrs {
+    position: absolute;
+    align-self: flex-end;
+    border-radius: 10px;
+}
+
+.secs {
+    position:absolute;
+    z-index: 300;
+    height: 280px;
+    width: 5px;
+    background-color: rgb(255, 0, 0);
+}
+
+.mins {
+    position:absolute;
+    z-index: 200;
+    height: 250px;
+    width: 6px;
+    background-color: rgb(255, 255, 255);
+}
+
+.hrs {
+    position:absolute;
+    z-index: 100;
+    height: 200px;
+    width: 9px;
+    background-color: #fff;
+}
+
+.nums {
+    position: absolute;
+    z-index: 10;
+    font-size: 45px;
+    font-weight: bold;
+    color: white;
+}
+
+.nums-12 {
+    top: 0; 
+}
+.nums-3 {
+    right: 5px; 
+}
+.nums-6 {
+    bottom: 0; 
+}
+.nums-9 {
+    left:5px; 
+}
+.nums-1 {
+    top:40px;
+    right: 150px;
+}
+.nums-2 {
+    top: 140px; 
+    right: 45px;
+} 
+.nums-4 {
+    top: 420px; 
+    right: 50px;
+} 
+.nums-5 {
+    top:515px;
+    right: 150px;
+}
+.nums-8 {
+    top: 420px; 
+    left: 50px;
+} 
+.nums-7 {
+    top:515px;
+    left: 150px;
+}
+.nums-11 {
+    top:40px;
+    left: 145px;
+}
+.nums-10 {
+    top: 140px; 
+    left: 45px;
+} 
