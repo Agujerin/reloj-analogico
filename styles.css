@@ -5,7 +5,10 @@
 /* PRÁCTICA 2: reloj analógico */ 
 .clock-container {
     padding: 5px;
-    background-color: mediumpurple;
+}
+
+.title {
+    text-align: center;
 }
 
 .clock-circle {
